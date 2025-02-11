@@ -1,5 +1,8 @@
 # ADRIÁN PEROGIL FERNÁNDEZ
 
+![image](https://github.com/user-attachments/assets/c2d6b13b-eb20-4f1d-a9fd-5d6e44615fba)
+![image](https://github.com/user-attachments/assets/a8f7318d-2ba4-43e1-b529-b93dc4efaec1)
+
 ## Qué es JAX
 
 JAX es una librería de Python desarrollada por Google, diseñada para acelerar la investigación en machine learning y computación científica. Combina la facilidad de uso de NumPy con la capacidad de ejecución en hardware acelerado (GPUs y TPUs). JAX es especialmente conocido por su enfoque en la diferenciación automática, la compilación Just-In-Time (JIT) y la vectorización automática, lo que lo convierte en una herramienta poderosa para tareas de alto rendimiento.
