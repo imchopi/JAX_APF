@@ -1,22 +1,5 @@
 # ADRIÁN PEROGIL FERNÁNDEZ
 
-# Actividad: Exploración de JAX
-
-Este repositorio contiene los recursos y el código generados para la actividad voluntaria sobre **JAX**, una librería de Google para computación científica y machine learning. El objetivo es explorar sus características, compararlo con TensorFlow y PyTorch, y aplicar lo aprendido en un ejemplo práctico.
-
----
-
-## Estructura del Repositorio
-jax-actividad/
-├── README.md # Este archivo
-├── ejemplo_jax.ipynb # Cuaderno Jupyter con el ejemplo práctico
-├── requirements.txt # Dependencias necesarias
-└── docs/
-└── documentacion.pdf # Documentación detallada en formato PDF
-
-
----
-
 ## Qué es JAX
 
 **JAX** es una librería de Python diseñada para acelerar la investigación en machine learning y computación científica. Combina la facilidad de uso de NumPy con la capacidad de ejecución en hardware acelerado (GPUs y TPUs). Sus principales características incluyen:
@@ -72,3 +55,22 @@ En el cuaderno Jupyter [`ejemplo_jax.ipynb`](ejemplo_jax.ipynb) se implementa un
    ```bash
    git clone https://github.com/tu_usuario/jax-actividad.git
    cd jax-actividad
+   ```
+
+
+## ¿Qué hice con JAX?
+
+1. Conversión de la imagen a un array de JAX:
+Convertí la imagen (que originalmente es un array de NumPy) a un array de JAX usando:
+    ```bash
+    image_jax = jnp.array(image)
+    ```
+
+2. Uso de JAX para operaciones numéricas:
+Aunque en este ejemplo no se realizan operaciones numéricas complejas (como transformaciones o diferenciación automática), la conversión a JAX permite que, en futuras extensiones del código, se puedan aplicar operaciones eficientes en hardware acelerado.
+
+3. Conversión de vuelta a NumPy:
+Después de realizar las operaciones de dibujo con OpenCV, convertí la imagen de vuelta a un array de JAX:
+    ```bash
+    return jnp.array(image_np)
+    ```

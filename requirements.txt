@@ -1,0 +1,6 @@
+jax
+jaxlib
+opencv-python
+ultralytics
+matplotlib
+numpy
